@@ -13,7 +13,7 @@ def grayify(image):
 
 def pixels_to_ascii(image):
     pixels = image.getdata()
-    return "".join(ASCII_CHARS[pixel // 25] for pixel in pixels)
+    return "".join(ASCII_CHARS[pixel * len(ASCII_CHARS) // 256] for pixel in pixels)
 
 def main():
     path = input("Enter image path: ")
