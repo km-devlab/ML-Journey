@@ -89,4 +89,3 @@ input_data = (0.0374, 0.0586, ..., 0.0126)  # 60 values
 
 ---
 
-## 📁 Project Structure
